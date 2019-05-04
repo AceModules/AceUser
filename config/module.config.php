@@ -6,8 +6,8 @@ use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'admin_entities' => [
-        'user' => 'AceUser\Entity\User',
-        'role' => 'AceUser\Entity\Role',
+        'user' => Entity\User::class,
+        'role' => Entity\Role::class,
     ],
     'doctrine' => [
         'eventmanager' => [
