@@ -1,0 +1,5 @@
+<?php
+
+namespace AceUser;
+
+return [];
